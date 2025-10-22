@@ -1,0 +1,38 @@
+{
+  "name": "yurica-menu-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazytia/yurica-menu-web.git"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazytia/yurica-menu-web/issues"
+  },
+  "homepage": "https://github.com/lazytia/yurica-menu-web#readme",
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
