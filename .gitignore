@@ -1,24 +1,35 @@
-# dependencies
-admin/node_modules/
-server/node_modules/
-
-# next build outputs
-admin/.next/
-server/.next/
-
-# uploads & local db
-server/uploads/
-*.db
-*.sqlite
-
-# env & logs
-.env
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# OS/editor
-.DS_Store
-Thumbs.db
-.vscode/
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/.gitignore b/.gitignore
+index 54d5f2cde75cbe74895132b09f3bc21c7c68e35b..e800b56ad323756ec1d67f91f736fd0928019331 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,24 +1,26 @@
+ # dependencies
++node_modules/
+ admin/node_modules/
+ server/node_modules/
+ 
+ # next build outputs
+ admin/.next/
++admin/out/
+ server/.next/
+ 
+ # uploads & local db
+ server/uploads/
+ *.db
+ *.sqlite
+ 
+ # env & logs
+ .env
+ *.log
+ npm-debug.log*
+ yarn-debug.log*
+ yarn-error.log*
+ 
+ # OS/editor
+ .DS_Store
+ Thumbs.db
+ .vscode/
+ 
+EOF
+)
