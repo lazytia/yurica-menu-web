@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/lazytia/yurica-menu-web/static/css/main.31d6cfe0.css",
+    "main.js": "/lazytia/yurica-menu-web/static/js/main.e7047b0a.js",
+    "index.html": "/lazytia/yurica-menu-web/index.html",
+    "main.e7047b0a.js.map": "/lazytia/yurica-menu-web/static/js/main.e7047b0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.e7047b0a.js"
+  ]
+}
