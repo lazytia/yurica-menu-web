@@ -1,4 +1,7 @@
-module.exports = {
+
+
+import someModule from 'some-module';
+exports = {
   env: {
     es6: true,
     node: true,

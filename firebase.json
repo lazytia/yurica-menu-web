@@ -8,7 +8,7 @@
   },
   "hosting": {
     "site": "yurica-menu-web",
-    "public": "yurica-menu-web", 
+    "public": "C:\\Users\\Tia\\Desktop\\yurica-menu-web", 
     "rewrites": [
       {
         "source": "**",
@@ -30,7 +30,7 @@
         "*.local"
       ],
       "predeploy": [
-        "npm --prefix \"$RESOURCE_DIR\" run lint"
+        
       ]
     }
   ],
